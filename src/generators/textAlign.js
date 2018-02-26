@@ -2,9 +2,9 @@ import defineClasses from '../util/defineClasses'
 
 export default function() {
   return defineClasses({
-    'text-left': { 'text-align': 'left' },
-    'text-center': { 'text-align': 'center' },
-    'text-right': { 'text-align': 'right' },
-    'text-justify': { 'text-align': 'justify' },
+    'ta-left': { 'text-align': 'left' },
+    'ta-center': { 'text-align': 'center' },
+    'ta-right': { 'text-align': 'right' },
+    'ta-justify': { 'text-align': 'justify' },
   })
 }

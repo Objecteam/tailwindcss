@@ -3,7 +3,7 @@ import defineClass from '../util/defineClass'
 
 export default function({ leading }) {
   return _.map(leading, (value, modifier) => {
-    return defineClass(`leading-${modifier}`, {
+    return defineClass(`lh-${modifier}`, {
       'line-height': `${value}`,
     })
   })

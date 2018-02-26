@@ -7,7 +7,7 @@ export default function({ fonts }) {
       families = families.join(', ')
     }
 
-    return defineClass(`font-${font}`, {
+    return defineClass(`ff-${font}`, {
       'font-family': `${families}`,
     })
   })
